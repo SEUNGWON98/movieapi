@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/movieapi/static/js/main.e469d5b3.js",
+    "index.html": "/movieapi/index.html",
+    "main.e469d5b3.js.map": "/movieapi/static/js/main.e469d5b3.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e469d5b3.js"
+  ]
+}
