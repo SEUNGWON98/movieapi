@@ -1,0 +1,20 @@
+.card_size {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(400px, 1fr));
+  grid-gap: 100px;
+  padding: 50px;
+  width: 100%;
+  padding-top: 70px;
+}
+
+.title {
+  width: 100vw;
+  background-color: gray;
+  height: 200px;
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  margin-bottom: 5vh;
+}

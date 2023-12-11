@@ -1,24 +1,21 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import "../styles/Movie.css";
+import "../styles/Page.css";
 
-function Movie({ id, imgsrc, poster_path, title, overview }) {
+function Movie({ id }) {
   return (
     <div className="movieBox">
-      <img className="movieImg" src={`${imgsrc}${poster_path}`} alt="" />
+      <h1>디테일 페이지</h1>
+      <div>1234s</div>
+      {/* <img className="movieImg" src={`${imgsrc}${poster_path}`} alt="" />
       <div>
         <h2 className="movieTitle">
-          <Link to={`/movie/${id}`} key={id}>
-            {title}
-            {/* <Movie
-              id={id}
-            /> */}
-          </Link>
+          <Link to={`/movie/${id}`}>{title}</Link>
         </h2>
         <p>
           {overview.length > 235 ? `${overview.slice(0, 235)}...` : overview}
-        </p>
-      </div>
+        </p> */}
+      {/* </div> */}
     </div>
   );
 }
